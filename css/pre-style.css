@@ -1,0 +1,43 @@
+::-webkit-scrollbar {
+    width: 1vh;
+    border-radius: 3vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #111;
+    border-radius: 3vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-radius: 3vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8vh;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3vh;
+    background-color: #111;
+}
+
+nav div a {
+    color: #fff;
+    text-decoration: none;
+    margin: 1vh;
+}
+
+footer {
+    border-top: 3px solid #fff;
+    padding: 3vh;
+}

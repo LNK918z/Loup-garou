@@ -1,0 +1,76 @@
+.strt {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+}
+
+.btn {
+    justify-content: center;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.nickname {
+    display: flex;
+    justify-content: center;
+}
+
+.nickname input {
+    padding: 1vh;
+    border-radius: 3vh;
+}
+
+
+.btn button {
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 3vh;
+    background-color: #fff;
+}
+
+p.categories {
+    text-align: center;
+    font-size: 3vh;
+    border-bottom: 2px solid;
+    color: #fff;
+    margin: 5vh;
+    flex-wrap: wrap;
+}
+
+.personnage {
+    margin-top: 19.4vh;
+    background: #000;
+    padding: 3vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30vh;
+    border-radius: 3vh;
+    height: 45vh;
+    background-color: #222;
+    padding: 3vh;
+    margin: 2vh;
+}
+
+.card .img {
+    display: flex;
+   justify-content: center;
+}
+
+.card .img img {
+   width: 35vh; 
+}
+
+.card .text p {
+    overflow-y: scroll;
+    height: 10vh;
+    color: #fff;
+}
+
