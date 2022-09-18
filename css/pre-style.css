@@ -27,8 +27,9 @@ body {
 nav {
     display: flex;
     justify-content: space-evenly;
-    padding: 3vh;
+    padding: 2vh;
     background-color: #111;
+    align-items: center;
 }
 
 nav div a {
@@ -37,7 +38,24 @@ nav div a {
     margin: 1vh;
 }
 
+nav div button {
+    padding: 1vh;
+    border: 2px solid transparent;
+    border-radius: 0.5vh;
+}
+
+nav div button.light {
+    background-color: #ffff;
+    color: #111;
+}
+
+nav div button.dark {
+    background-color: #111;
+    color: #fff;
+}
+
 footer {
     border-top: 3px solid #fff;
     padding: 3vh;
+    background: #222;
 }

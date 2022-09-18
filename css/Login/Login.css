@@ -1,0 +1,50 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.card {
+    background: #222;
+    height: 80vh;
+    width: 60vh;
+    border-radius: 3vh;
+}
+
+.card h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 10vh;
+    font-size: 4vh;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12vh;
+}
+
+.info input {
+    border-radius: 3vh;
+    margin: 3vh;
+    padding: 1vh;
+}
+
+footer {
+    margin-top: 6.4vh;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 19.4vh;
+}
+
+.btn button {
+    border-radius: 3vh;
+    border: 2px solid transparent;
+    background: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+}
